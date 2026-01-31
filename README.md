@@ -3,7 +3,7 @@
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/gopi27-eng/Data-test-pilot)
 
 ## 📖 Overview
-An advanced **AI Agent** built with **LangGraph** and **Gemini 1.5 Flash** designed to automate the technical planning and testing phase of Data Science projects.
+An advanced **AI Agent** built with **LangGraph** and **Gemini 2.5 Flash** designed to automate the technical planning and testing phase of Data Science projects.
 
 ## 🚀 Key Features
 - **Agentic Workflow:** Uses a "Lead-Reviewer" architecture for self-correcting plans.
