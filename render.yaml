@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ds-test-pilot-agent
+    runtime: docker
+    plan: free
+    region: oregon # Or your preferred region
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false # This will prompt you to enter the key in the Render UI
+      - key: PORT
+        value: 8501

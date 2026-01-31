@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ds-test-pilot-agent
-    env: docker
-    plan: free
-    region: oregon
-    envVars:
-      - key: GOOGLE_API_KEY
-        sync: false # This reminds the user to add their own key manually
