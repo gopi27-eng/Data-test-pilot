@@ -1,6 +1,6 @@
 # 🤖 Data Science Test Pilot: Agentic AI Planner
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=YOUR_REPO_LINK)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/gopi27-eng/Data-test-pilot)
 
 ## 📖 Overview
 An advanced **AI Agent** built with **LangGraph** and **Gemini 1.5 Flash** designed to automate the technical planning and testing phase of Data Science projects.
