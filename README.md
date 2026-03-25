@@ -1,84 +1,66 @@
-# 🤖 Agentic AI Data Science Planner
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/gopi27-eng/Data-test-pilot)
+# 🤖 CareerCo-Pilot: AI Job Automation Agent
 
 ## 📌 Overview
-This project is an **Agentic AI system** designed to automate the planning, validation, and testing phases of Data Science workflows.  
+CareerCo-Pilot is an **AI-powered job automation agent** designed to streamline and automate the job search and application process.  
 
-Built using **LangGraph and Google Gemini API**, the system simulates a **multi-agent collaboration (Planner + Reviewer)** to generate structured, validated project plans.
+It leverages **Generative AI, browser automation, and APIs** to reduce manual effort and help users discover and apply to relevant job opportunities efficiently.
 
 ---
 
 ## 🎯 Problem Statement
-In real-world data science projects, a significant amount of time is spent on:
-- Planning workflows  
-- Defining validation strategies  
-- Ensuring data and model reliability  
+Job searching is often:
+- Time-consuming and repetitive  
+- Involves manual searching across multiple platforms  
+- Requires filling similar applications repeatedly  
 
-These steps are often manual, inconsistent, and error-prone.
+This leads to inefficiency and lost opportunities.
 
 ---
 
 ## 💡 Solution
-This project introduces an **Agentic AI framework** that:
+CareerCo-Pilot automates the job search workflow by:
 
-- Automatically generates structured Data Science project plans  
-- Validates workflows using a **self-correcting multi-agent system**  
-- Incorporates **Human-in-the-Loop** checkpoints for reliability  
+- Searching for relevant job listings  
+- Automating application steps  
+- Reducing manual effort using AI-driven workflows  
 
 ---
 
 ## ⚙️ Key Features
 
-### 🤖 Multi-Agent Architecture
-- **Planner Agent** → Generates initial workflow  
-- **Reviewer Agent** → Validates and refines the plan  
+### 🤖 AI-Powered Job Search
+- Uses intelligent filtering to find relevant job roles  
+- Supports natural language-based inputs  
 
-### 🔁 Self-Correcting Workflow
-- Iterative feedback loop between agents  
-- Improves accuracy and completeness of outputs  
+### 🔄 Automation Workflow
+- Automates repetitive job application tasks  
+- Integrates browser automation for real-time interaction  
 
-### 👨‍💻 Human-in-the-Loop
-- Optional approval checkpoints  
-- Ensures control over critical decisions  
+### 📩 Smart Notifications
+- Sends job updates via WhatsApp API  
+- Keeps users informed instantly  
 
-### 🚀 Scalable Deployment
-- Fully containerized using Docker  
-- Deployable on cloud platforms like Render  
+### ⏱️ Time Optimization
+- Reduces manual job search effort by 10+ hours per week  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **AI / LLM:** Google Gemini API  
-- **Frameworks:** LangChain, LangGraph  
-- **Frontend:** Streamlit  
-- **Deployment:** Docker, Render  
-
----
-
-## 🧪 Real-World Use Case
-
-### ✈️ Aviation Analytics
-
-This system can be applied to:
-
-- Cargo weight optimization  
-- Flight delay prediction  
-- Operational risk analysis  
-
-It ensures that:
-- Proper data validation steps are included  
-- ML pipelines are well-structured before execution  
+- **AI / LLM:** LangChain  
+- **Automation:** Selenium  
+- **APIs:** WhatsApp API  
+- **Backend:** Python  
 
 ---
 
 ## 📊 How It Works
 
-1. User provides a problem statement  
-2. Planner Agent generates a workflow  
-3. Reviewer Agent validates and improves it  
-4. Final output is presented via Streamlit UI  
+1. User provides job preferences (role, location, keywords)  
+2. System searches job portals automatically  
+3. Filters relevant job listings  
+4. Automates application process  
+5. Sends updates/notifications to user  
 
 ---
 
@@ -86,22 +68,22 @@ It ensures that:
 
 ```
 
-app.py          # Core agent logic + Streamlit UI
-Dockerfile      # Container setup
-render.yaml     # Deployment configuration
+main.py            # Core automation logic
+utils/             # Helper functions
+config/            # Configuration files
 
 ````
 
 ---
 
-## ▶️ How to Run Locally
+## ▶️ How to Run
 
 ```bash
-git clone https://github.com/gopi27-eng/Data-test-pilot
-cd Data-test-pilot
+git clone https://github.com/gopi27-eng/CareerCo-Pilot
+cd CareerCo-Pilot
 
 pip install -r requirements.txt
-streamlit run app.py
+python main.py
 ````
 
 ---
@@ -112,11 +94,19 @@ streamlit run app.py
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Real-World Impact
 
-* Integration with real datasets
-* Automated model selection
-* End-to-end ML pipeline execution
+* Saves significant time in job search
+* Improves efficiency in applying to multiple roles
+* Demonstrates practical use of **AI + Automation**
+
+---
+
+## 🔮 Future Improvements
+
+* Resume-based job matching
+* Integration with LinkedIn and job APIs
+* Dashboard for tracking applications
 
 ---
 
@@ -129,6 +119,7 @@ streamlit run app.py
 
 ---
 
-## ⭐ If you found this project interesting, consider giving it a star!
+## ⭐ If you found this project useful, consider giving it a star!
 
 ```
+
